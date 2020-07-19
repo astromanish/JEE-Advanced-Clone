@@ -1,0 +1,140 @@
+body{
+    color:#606060;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+img
+{
+    max-width: 100%;
+    display: block;
+}
+
+
+/* LAYOUT AND TYPOGRAPHY */
+
+.site-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-title{
+    font-size: 1.5rem;
+    color: #15577D;
+    text-align: center;
+}
+
+.site-subtitle{
+    text-align: center;
+}
+
+.nav-list{
+    display: none;
+}
+
+
+
+.container-main{
+    width: 95%;
+    max-width:960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+}
+
+.main-column{
+    border: 2px solid #606060;
+    margin-bottom: 1.5em;
+    padding: 1em 1em 0 1em;
+}
+
+.main-column-date{
+    color: red;
+    text-align: right;
+}
+
+.aside-list:first-child{
+    list-style: non;
+}
+
+.aside-list{
+    list-style: square;
+}
+
+.aside-link:link{
+    text-decoration: none;
+    color: #15577d;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background: #313B48;
+    padding: 0.2em 0 2em 0;
+}
+
+.footer-info-item{
+    color:#fff;
+}
+
+.footer-info-item{
+    font-family: "Montserrat",sans-serif;
+}
+
+.footer-info-item ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-info-item li{
+    padding: 0;
+
+}
+
+.footer-copyright p{
+    text-align: center;
+}
+
+/* Larger Screen */
+
+@media (min-width:800px){
+    .site-heading{
+        flex-direction: row;
+    }
+    .nav-list{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    .nav-list-item{
+        margin-left: 2em;
+    }
+
+    .nav-link{
+        text-decoration: none;
+        color: #805867;
+    }
+
+    .current-page{
+        color: #30afb8;
+    }
+    .container-main{
+        flex-direction: row;
+    }
+    main{
+        width:80%
+    }
+    aside{
+        width:20%;
+    }
+    .footer-info{
+        flex-direction: row;
+    }
+}
