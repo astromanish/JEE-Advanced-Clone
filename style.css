@@ -146,8 +146,8 @@ img
 }
 
 .nav-open .nav-list{
-    clip-path: circle(1000px at 90% 0%);
-    -webkit-clip-path: circle(1000px at 90% 0%);
+    clip-path: circle(2000px at 90% 0%);
+    -webkit-clip-path: circle(2000px at 90% 0%);
 }
 
 .nav-open .line1{
