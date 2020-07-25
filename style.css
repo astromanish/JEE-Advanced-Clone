@@ -140,6 +140,7 @@ img
     right:0;
     clip-path: circle(0px at 85% 5%);
     -webkit-clip-path: circle(0px at 85% 5%);
+    opacity: 50%;
     transition: all 900ms ease-out;;
     font-size: 2rem;
     z-index: 2;
@@ -148,19 +149,22 @@ img
 .nav-open .nav-list{
     clip-path: circle(2000px at 90% 0%);
     -webkit-clip-path: circle(2000px at 90% 0%);
+    opacity: 100%;
 }
 
 .nav-open .line1{
-    transform: rotate(45deg);
+    transform: skewY(45deg);
     background-color: red;
-}
-
-.nav-open .line3{
-    display: none;
+    width: 25px;
 }
 
 .nav-open .line2{
-    transform: rotate(-45deg);
+    display: none;
+}
+
+.nav-open .line3{
+    transform: skewY(-45deg);
+    width: 25px;
     background-color: red;
 }
 
