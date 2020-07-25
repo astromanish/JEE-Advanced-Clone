@@ -140,7 +140,7 @@ img
     right:0;
     clip-path: circle(0px at 85% 5%);
     -webkit-clip-path: circle(0px at 85% 5%);
-    transition: all 1s ease-out;;
+    transition: all 900ms ease-out;;
     font-size: 2rem;
     z-index: 2;
 }
@@ -171,6 +171,28 @@ img
 
 .nav-link:hover{
     color: red;
+}
+
+.main-column-body a{
+    text-decoration: none;
+    color: #045283;
+}
+
+
+
+table{
+    width:100%;
+    margin-top: 1em ;
+}
+
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+    font-weight: 500;
 }
 
 
